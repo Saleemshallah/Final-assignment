@@ -1,0 +1,6 @@
+import pandas as pd
+pip install xlrd==1.2.0
+my_sheet = '1st_clean' 
+file_name = 'clean_final.xlsx' 
+df = pd.read_excel(file_name, sheet_name = my_sheet)
+print (df)
